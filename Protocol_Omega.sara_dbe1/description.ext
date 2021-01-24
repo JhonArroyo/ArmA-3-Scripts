@@ -1,0 +1,9 @@
+class CfgSounds {
+	sounds[] = {};
+	
+	class KP {
+		name="kp";
+		sound[]={sound\kp.ogg, 20,1};
+		titles[] = {};
+	};
+};
