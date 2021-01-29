@@ -1,0 +1,36 @@
+#define NAME "CBRN Showcase"
+
+class CfgFunctions {
+    #include "scripts\cbrn\funcs.hpp"
+};
+
+class CfgSounds {
+    sounds[] = {};
+    #include "scripts\cbrn\sounds\sounds.hpp"
+	sounds[] = {};
+	
+	class kp
+	{
+	name = "kp";
+	sound[] = {"sounds\kp.ogg", 5,1};
+	titles[] = {};
+	};
+};
+
+class RscTitles {
+    #include "scripts\cbrn\rsctitles.hpp"
+}
+
+class Extended_PreInit_EventHandlers {
+    class cbrn_preInit {
+        init = "[] call compile preProcessFileLineNumbers 'scripts\cbrn\XEH_PreInit.sqf'";
+    };
+};
+
+class Extended_InitPost_EventHandlers {
+    #include "scripts\cbrn\XEH_InitPost_eh.hpp"
+};
+
+
+ 
+}
