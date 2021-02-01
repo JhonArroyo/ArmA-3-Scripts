@@ -1,17 +1,17 @@
 this addAction ["Reclutar a la unidad Alpha",{[alpha1] join player; [alpha2] join player; [alpha3] join player; [alpha4] join player; nul = [[["Equipo Alpha Reclutado.","<t align='center' shadow='2' size='0.7'>%1</t><br/>"],["","<t align='center' shadow='2' size='0.7'>%1</t><br/>"],["","<t align='center' shadow='2' size='0.7'>%1</t>"]]] spawn BIS_fnc_typeText;  
 },nil,1.5,true,true,"","alive alpha1, alive alpha2, alive alpha3, alive alpha4",10]; 
-
+/------------------------------------------------------------------------------------------------------------------------------------------------------------------------------/
 this addAction ["Descartar a la Unidad Alpha",{[alpha1] join grpNull; [alpha2] join grpNull; [alpha3] join grpNull; [alpha4] join grpNull; nul = [[["Equipo Alpha Descartado.","<t align='center' shadow='2' size='0.7'>%1</t><br/>"],["","<t align='center' shadow='2' size='0.7'>%1</t><br/>"],["","<t align='center' shadow='2' size='0.7'>%1</t>"]]] spawn BIS_fnc_typeText;  
 },nil,1.5,true,true,"","alive alpha1, alive alpha2, alive alpha3, alive alpha4",10]; 
-
-this addAction ["Reclutar a la unidad Bravo",{[alpha1] join player; [alpha2] join player; [alpha3] join player; [alpha4] join player; nul = [[["Equipo Bravo Reclutado.","<t align='center' shadow='2' size='0.7'>%1</t><br/>"],["","<t align='center' shadow='2' size='0.7'>%1</t><br/>"],["","<t align='center' shadow='2' size='0.7'>%1</t>"]]] spawn BIS_fnc_typeText;  
-},nil,1.5,true,true,"","alive alpha1, alive alpha2, alive alpha3, alive alpha4",10]; 
-
-this addAction ["Descartar a la Unidad Bravo",{[alpha1] join grpNull; [alpha2] join grpNull; [alpha3] join grpNull; [alpha4] join grpNull; nul = [[["Equipo Bravo Descartado.","<t align='center' shadow='2' size='0.7'>%1</t><br/>"],["","<t align='center' shadow='2' size='0.7'>%1</t><br/>"],["","<t align='center' shadow='2' size='0.7'>%1</t>"]]] spawn BIS_fnc_typeText;  
-},nil,1.5,true,true,"","alive alpha1, alive alpha2, alive alpha3, alive alpha4",10]; 
-
-this addAction ["Reclutar a la unidad Charlie",{[alpha1] join player; [alpha2] join player; [alpha3] join player; [alpha4] join player; nul = [[["Equipo Charlie Reclutado.","<t align='center' shadow='2' size='0.7'>%1</t><br/>"],["","<t align='center' shadow='2' size='0.7'>%1</t><br/>"],["","<t align='center' shadow='2' size='0.7'>%1</t>"]]] spawn BIS_fnc_typeText;  
-},nil,1.5,true,true,"","alive alpha1, alive alpha2, alive alpha3, alive alpha4",10]; 
-
-this addAction ["Descartar a la Unidad Charlie",{[alpha1] join grpNull; [alpha2] join grpNull; [alpha3] join grpNullr; [alpha4] join grpNull; nul = [[["Equipo Charlie Descartado.","<t align='center' shadow='2' size='0.7'>%1</t><br/>"],["","<t align='center' shadow='2' size='0.7'>%1</t><br/>"],["","<t align='center' shadow='2' size='0.7'>%1</t>"]]] spawn BIS_fnc_typeText;  
-},nil,1.5,true,true,"","alive alpha1, alive alpha2, alive alpha3, alive alpha4",10]; 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+this addAction ["Reclutar a la unidad Bravo",{[bravo1] join player; [bravo2] join player; [bravo3] join player; [bravo4] join player; nul = [[["Equipo Bravo Reclutado.","<t align='center' shadow='2' size='0.7'>%1</t><br/>"],["","<t align='center' shadow='2' size='0.7'>%1</t><br/>"],["","<t align='center' shadow='2' size='0.7'>%1</t>"]]] spawn BIS_fnc_typeText;  
+},nil,1.5,true,true,"","alive bravo1, alive bravo2, alive bravo3, alive bravo4",10]; 
+/------------------------------------------------------------------------------------------------------------------------------------------------------------------------------/
+this addAction ["Descartar a la Unidad Bravo",{[bravo1] join grpNull; [bravo2] join grpNull; [bravo3] join grpNull; [bravo4] join grpNull; nul = [[["Equipo Bravo Descartado.","<t align='center' shadow='2' size='0.7'>%1</t><br/>"],["","<t align='center' shadow='2' size='0.7'>%1</t><br/>"],["","<t align='center' shadow='2' size='0.7'>%1</t>"]]] spawn BIS_fnc_typeText;  
+},nil,1.5,true,true,"","alive bravo1, alive bravo2, alive bravo3, alive bravo4",10]; 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+this addAction ["Reclutar a la unidad Charlie",{[charlie1] join player; [charlie2] join player; [charlie3] join player; [charlie4] join player; nul = [[["Equipo Charlie Reclutado.","<t align='center' shadow='2' size='0.7'>%1</t><br/>"],["","<t align='center' shadow='2' size='0.7'>%1</t><br/>"],["","<t align='center' shadow='2' size='0.7'>%1</t>"]]] spawn BIS_fnc_typeText;  
+},nil,1.5,true,true,"","alive charlie1, alive charlie2, alive charlie3, alive charlie4",10]; 
+/------------------------------------------------------------------------------------------------------------------------------------------------------------------------------/
+this addAction ["Descartar a la Unidad Charlie",{[charlie1] join grpNull; [charlie2] join grpNull; [charlie3] join grpNullr; [charlie4] join grpNull; nul = [[["Equipo Charlie Descartado.","<t align='center' shadow='2' size='0.7'>%1</t><br/>"],["","<t align='center' shadow='2' size='0.7'>%1</t><br/>"],["","<t align='center' shadow='2' size='0.7'>%1</t>"]]] spawn BIS_fnc_typeText;  
+},nil,1.5,true,true,"","alive charlie1, alive charlie2, alive charlie3, alive charlie4",10]; 
