@@ -1,0 +1,7 @@
+*/--------------------------------------------------------------------------talkSimulationtsk01_2--------------------------*/
+ONU HQ sideChat "Necesitamos que recuperes unos archivos primordiales.";
+HQ sideChat "¿Archivos primordiales?....";
+ONU HQ sideChat "Hasta que se cumpla la mision vas a rendir cuenta a la ONU.";
+HQ sideChat "Bueno mi hombre es todo suyo..."
+P1 sideChat "Espero nuevo estado.";
+/*-------------------------------------------------------------------------------------------------------------------------/*

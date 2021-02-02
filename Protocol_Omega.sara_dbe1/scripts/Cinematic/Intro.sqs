@@ -1,0 +1,27 @@
+;=== Create Camera Start
+_camera = "camera" camcreate [3695.91,3610.04,2.00]
+_camera cameraeffect ["internal","back"]
+;=== Create Camera End
+
+;=== Intro Start
+
+;comment "Camera 1st Position";
+_camera camPrepareTarget [-71785.54,57616.60,-37720.29];
+_camera camPreparePos [3221.69,3317.72,17.44];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 0
+@camCommitted _camera
+
+~5
+
+;comment "Camera 2nd Position";
+_camera camPrepareTarget [-43733.02,-79063.80,-31500.20];
+_camera camPreparePos [3191.84,3418.68,20.23];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 10
+@camCommitted _camera
+
+~5
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
