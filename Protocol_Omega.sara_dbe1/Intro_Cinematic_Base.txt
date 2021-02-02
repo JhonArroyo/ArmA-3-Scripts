@@ -1,3 +1,0 @@
------INIT PLAYER--------
-1) this exec "camera.sqs";
-2) this exec "Intro.sqs";   // EXECUTE INTRO || OUTRO CINEMATIC
