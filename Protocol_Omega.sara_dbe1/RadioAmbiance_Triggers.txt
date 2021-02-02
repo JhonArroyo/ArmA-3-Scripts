@@ -11,7 +11,7 @@ Effect_Conditon:  Sound -> USAF RADIO CHATTER 29
 Trigger: t2
 -repeatable
 Condition: triggerActivated t1
-Delay_Activation : 19 - 19 -19
+Delay_Activation : 19 - 19 - 19
 Effect_Conditon: Sound -> USAF RADIO CHATTER 28
 */-----------------------------------*/
 Trigger: t3
