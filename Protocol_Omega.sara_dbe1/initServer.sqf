@@ -17,3 +17,5 @@ This will create a threat level 3.5 (Orange) zone around position _pos with tota
 [getMarkerPos "market_0", 1.5, 380, 380] call cbrn_fnc_createZone;
 [getMarkerPos "market_1", 1.5, 400, 400] call cbrn_fnc_createZone;
 [getMarkerPos "market_2", 3.5, 800, 1600] call cbrn_fnc_createZone;
+
+//[getMarkerPos "market_3",4.5, 600,1200] call cbrn_fnc_createZone;
