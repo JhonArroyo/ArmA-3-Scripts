@@ -11,7 +11,14 @@ class CfgSounds {
 	class kp
 	{
 	name = "kp";
-	sound[] = {"sounds\kp.ogg", 5,1};
+	sound[] = {"scripts\cbrn\sounds\kp.ogg", 5,1};
+	titles[] = {};
+	};
+
+    class intro
+	{
+	name = "intro";
+	sound[] = {"scripts\cbrn\sounds\intro.ogg", 2,1};
 	titles[] = {};
 	};
 };

@@ -2,7 +2,7 @@ titleCut ["", "BLACK FADED", 9];
 	[] Spawn {
 	waitUntil{!(isNil "BIS_fnc_init")};
 	sleep 0;
-	//playsound "intro";
+	playsound "intro";
 	
 	titleText ["","PLAIN DOWN"]; 
 	titleFadeOut 5;
