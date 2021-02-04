@@ -1,0 +1,9 @@
+var t1, var t2, var t3, var gl
+null = this spawn 
+{
+    _this dotarget t1; sleep 0.5; while {alive t1 and alive _this} do {sleep 6; gl action ["useweapon",vehicle _this,_this,0]; }
+};
+
+// AI unit will fire with  game logic module an select object target for each variable assigned.
+
+slepp 6, 4, 7
