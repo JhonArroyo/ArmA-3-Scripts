@@ -1,0 +1,7 @@
+Backpack hose to mask  
+---------------------
+(backpackContainer this) setObjectTexture [2, "a3\supplies_f_enoch\bags\data\b_scba_01_co.paa"];
+/--------------------------------------------------
+Attachto object CBRN 
+-------------------------
+light attachTo [v1,[0,-1,-0.5]]; 
