@@ -4,7 +4,7 @@ titleCut ["", "BLACK FADED", 9];
 	waitUntil{!(isNil "BIS_fnc_init")};
 	sleep 0;
 	playsound "intro";
-	
+				
 	titleText ["","PLAIN DOWN"]; 
 	titleFadeOut 5;
 	sleep 0;

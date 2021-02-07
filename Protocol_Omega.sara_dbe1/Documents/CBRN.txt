@@ -15,3 +15,24 @@ call  {"YourLayerName" cutRsc ["RscCBRN_APR", "PLAIN", -1, false];};
 Attach
 -------------
 light attachTo [v1,[0,-1,-0.5]]; 
+
+
+trigger(Dconlogic1) DconShowerLarge Dimension
+-----------------
+Position = [5472.92,6178.55,0]
+Rotation = [0]
+Size = [3, 5, 5]
+Condition = this --> triggerActivated Dconlogic1 (Counting 5 sec to Activate another trigger)
+Activated = hint "Porfavor Aguarde 5 segundos para iniciar."; --> null = [] execVM "scripts\DeconShower1.sqf";
+Disabled = hintSilent "";
+/--------------------------
+trigger(Dconlogic2) DconShower Dimension
+-----------------
+Position = [5481.73,6167.06,0]
+Rotation = [0]
+Size = [0.5, 0.65, 2.33]
+Condition = this --> triggerActivated Dconlogic2 (Counting 5 sec to Activate another trigger)
+Activated =hint "Porfavor Aguarde 5 segundos para iniciar."; --> null = [] execVM "scripts\DeconShower2.sqf";
+Disabled = null
+/--------------------------
+
