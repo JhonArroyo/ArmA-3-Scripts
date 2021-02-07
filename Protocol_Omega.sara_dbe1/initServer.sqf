@@ -1,3 +1,4 @@
+player enableSimulation false;
 titleCut ["", "BLACK FADED", 9];
 	[] Spawn {
 	waitUntil{!(isNil "BIS_fnc_init")};
@@ -59,9 +60,13 @@ sleep 4;
 	"dynamicBlur" ppEffectAdjust [0.0];  
 	"dynamicBlur" ppEffectCommit 5;  
 	
+	player enableSimulation true;
 	titleCut ["", "BLACK IN", 5];
 	};
+sleep 5;
 
+null = [this] execVM "scripts\initConversation.sqf";
+null = [[monitor1,monitor2,monitor3,monitor4],["s1","s2","s3","s4","s5"]] execVM "scripts\LFC\Feedinit.sqf";
 
 
 /*

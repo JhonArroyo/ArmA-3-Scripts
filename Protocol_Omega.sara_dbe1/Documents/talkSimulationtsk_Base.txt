@@ -1,7 +1,15 @@
 */--------------------------------------------------------------------------talkSimulationtsk01_2--------------------------*/
 ONU HQ sideChat "Necesitamos que recuperes unos archivos primordiales.";
+sleep 3;
 HQ sideChat "¿Archivos primordiales?....";
+sleep 3;
 ONU HQ sideChat "Hasta que se cumpla la mision vas a rendir cuenta a la ONU.";
+sleep 3;
 HQ sideChat "Bueno mi hombre es todo suyo..."
+sleep 3;
 P1 sideChat "Espero nuevo estado.";
 /*-------------------------------------------------------------------------------------------------------------------------/*
+
+["Maj.Aaron Warren","Espero nuevo estado."] spawn BIS_fnc_showSubtitle;
+sleep 4;
+

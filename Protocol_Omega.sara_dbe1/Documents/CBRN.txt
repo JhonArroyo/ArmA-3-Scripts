@@ -1,7 +1,17 @@
-Backpack hose to mask  
+Backpack hose to mask CBRN 
 ---------------------
 (backpackContainer this) setObjectTexture [2, "a3\supplies_f_enoch\bags\data\b_scba_01_co.paa"];
 /--------------------------------------------------
 Attachto object CBRN 
 -------------------------
+(backpackContainer this) setObjectTexture [1, "a3\supplies_f_enoch\bags\data\b_cur_01_co.paa"]; 
+(backpackContainer this) setObjectTexture [2, "a3\supplies_f_enoch\bags\data\b_cur_01_co.paa"]; 
+this linkItem "G_AirPurifyingRespirator_01_nofilter_F";
+/--------------
+view EFFECT  GAS MASK
+-------------------
+call  {"YourLayerName" cutRsc ["RscCBRN_APR", "PLAIN", -1, false];};
+/----------------
+Attach
+-------------
 light attachTo [v1,[0,-1,-0.5]]; 
