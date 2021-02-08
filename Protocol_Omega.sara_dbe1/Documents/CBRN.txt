@@ -32,7 +32,7 @@ Position = [5481.73,6167.06,0]
 Rotation = [0]
 Size = [0.5, 0.65, 2.33]
 Condition = this --> triggerActivated Dconlogic2 (Counting 5 sec to Activate another trigger)
-Activated =hint "Porfavor Aguarde 5 segundos para iniciar."; --> null = [] execVM "scripts\DeconShower2.sqf";
+Activated = hint "Porfavor Aguarde 5 segundos para iniciar."; --> null = [] execVM "scripts\DeconShower2.sqf";
 Disabled = null
 /--------------------------
 

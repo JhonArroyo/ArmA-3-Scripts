@@ -18,5 +18,3 @@ sleep 4;
 
 ["Maj.Aaron Warren","10-4. Cambio y fuera"] spawn BIS_fnc_showSubtitle;
 sleep 4;
-
-this = [] execVM "";
