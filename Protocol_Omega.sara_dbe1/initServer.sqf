@@ -67,7 +67,7 @@ sleep 5;
 
 null = [this] execVM "scripts\initConversation.sqf";
 null = [[monitor1,monitor2,monitor3,monitor4],["s1","s2","s3","s4","s5"]] execVM "scripts\LFC\Feedinit.sqf";
-
+null = [this] execVM "tracker.sqf";
 
 /*
 Adding zones must be done by server. If you add them via any other machine, it will simply not work!
