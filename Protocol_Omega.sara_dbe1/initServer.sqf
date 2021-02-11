@@ -4,7 +4,7 @@ titleCut ["", "BLACK FADED", 9];
 	waitUntil{!(isNil "BIS_fnc_init")};
 	sleep 0;
 	playsound "intro";
-				
+	
 	titleText ["","PLAIN DOWN"]; 
 	titleFadeOut 5;
 	sleep 0;
@@ -66,8 +66,8 @@ sleep 4;
 sleep 5;
 
 null = [this] execVM "scripts\initConversation.sqf";
-null = [[monitor1,monitor2,monitor3,monitor4],["s1","s2","s3","s4","s5"]] execVM "scripts\LFC\Feedinit.sqf";
-null = [this] execVM "tracker.sqf";
+//null = [[monitor1,monitor2,monitor3,monitor4],["s1","s2","s3","s4","s5"]] execVM "scripts\LFC\Feedinit.sqf";
+[] execVM "scripts\Trader_ravage_custom.sqf"
 
 /*
 Adding zones must be done by server. If you add them via any other machine, it will simply not work!
