@@ -7,7 +7,7 @@ rvg_supplies_custom = ["Supplies",
 
       ["rvg_canteenPurified", 50,"CfgMagazines", 2], 
 	  
-	    ["rvg_purificationTablets", 5,"CfgMagazines", 5],
+      ["rvg_purificationTablets", 5,"CfgMagazines", 5],
 
       ["rvg_flare", 15,"CfgMagazines", 5], 
 
@@ -15,9 +15,9 @@ rvg_supplies_custom = ["Supplies",
 
       ["rvg_rustyCan", 30,"CfgMagazines", 1],
 	  
-	    ["rvg_franta", 10,"CfgMagazines", 5],
+      ["rvg_franta", 10,"CfgMagazines", 5],
 	  
-	    ["rvg_spirit", 10,"CfgMagazines", 5],
+      ["rvg_spirit", 10,"CfgMagazines", 5],
 
       ["rvg_canOpener", 25, "CfgMagazines", 3], 
 
@@ -36,9 +36,9 @@ rvg_arms_custom = ["Arms",
 
   [ 
 
-     ["MRC_Black", 10,"CfgWeapons", 1],
+      ["MRC_Black", 10,"CfgWeapons", 1],
 	 
-	   ["MRC_492x34_B_skin1", 5,"CfgMagazines", 10]
+      ["MRC_492x34_B_skin1", 5,"CfgMagazines", 10]
 
   ] 
 
