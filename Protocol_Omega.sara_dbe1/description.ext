@@ -21,6 +21,10 @@ class CfgSounds {
 	sound[] = {"scripts\cbrn\sounds\intro.ogg", 2,1};
 	titles[] = {};
 	};
+	//Sounds Airdrop Extracted and used from GF_AIRDROP_SCRIPT
+	class Plane_sound1{name = "Plane_sound1";sound[] = {"scripts\cbrn\sounds\plane_fly_over_1.ogg", db-2, 1.0};titles[] = {};};
+	class Plane_sound2{name = "Plane_sound2";sound[] = {"scripts\cbrn\sounds\plane_fly_over_2.ogg", db-2, 1.0};titles[] = {};};
+	class Plane_sound3{name = "Plane_sound3";sound[] = {"scripts\cbrn\sounds\plane_fly_over_3.ogg", db-2, 1.0};titles[] = {};};
 };
 
 class RscTitles {
