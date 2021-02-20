@@ -78,8 +78,9 @@ private ["_Plane_sound"];
 
 
 //	Create a marker
-//	_Pos = getmarkerPos "DROP_Marker_1";
-
+	_Pos = getmarkerPos "DROP_Marker_1";
+	_Pos = getmarkerPos "DROP_Marker_2";
+	_Pos = getmarkerPos "DROP_Marker_3";
 /*
 //	or select a random marker
 _Marker_array =selectRandom[    
@@ -92,7 +93,7 @@ _Pos = getmarkerPos _Marker_array;
 
 
 //    this can be a Supply drop with an add action in an item or player    https://community.bistudio.com/wiki/addAction
-	_Pos = getPos player;    //    for test or for support purpose
+	//_Pos = getPos player;    //    for test or for support purpose
 
 
 

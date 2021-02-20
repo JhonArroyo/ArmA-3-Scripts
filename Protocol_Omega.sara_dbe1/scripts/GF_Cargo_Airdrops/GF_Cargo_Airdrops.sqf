@@ -52,7 +52,7 @@ _Custom_loot							= false;      	//	Selected loot
 _Create_Markers    						= true;         //	Show the Airdrop position with a marker
 _Number									= 5;			//	Number of the Airdrops
 _Number_random							= 5;			//	+ random 5 Airdrops
-_next_drop_in_sec   					= 10;          	//	_next_drop_in_sec - 10 is for test
+_next_drop_in_sec   					= 60;          	//	_next_drop_in_sec - 10 is for test
 _height_of_drop      					= 75;       	//	_height_of_drop - 75 is for test
 
 
@@ -79,21 +79,21 @@ _Pool_Infantry = [
 	"O_G_Soldier_M_F","O_G_Soldier_LAT_F","O_G_Soldier_A_F","O_G_Soldier_F","O_G_Soldier_lite_F","O_G_Sharpshooter_F",
 	"O_G_Soldier_universal_F"
 	];
-	
+sleep 5400;	
 	
 	
 	
 systemchat "C a r g o   A i r d r o p s    I n i t i a l i z e d";
-
+sleep 14;
 
 if (_Radio_Call) then {
 
 //    systemchat "_Radio_Call";
 _grid = mapGridPosition getPos player;
-player sideChat format ["This is %1, requesting Supply drop at the transmitting coordinates %2, OVER.", name player, _grid];
+HQ sideChat format ["This is %1, requesting Supply drop at the transmitting coordinates %2, OVER.", name OTAN, _grid];
 playSound3D ["A3\dubbing_f\modules\supports\drop_request.ogg", player];
 sleep 6;
-player sideChat format ["Affirmative %1, Supplies on route , OUT.", name player];
+HQ sideChat format ["Affirmative %1, Supplies on route , OUT.", name OTAN];
 playSound3D ["A3\dubbing_f\modules\supports\drop_acknowledged.ogg", player];
 sleep 10;
 };
@@ -157,7 +157,7 @@ sleep 10;
 
 if (_Radio_Call) then {
 
-player sideChat format ["%1, The Supplies have been dropped , OUT.", name player];
+HQ sideChat format ["%1, The Supplies have been dropped , OUT.", name OTAN];
 playSound3D ["A3\dubbing_f\modules\supports\drop_accomplished.ogg", player];
 };
 

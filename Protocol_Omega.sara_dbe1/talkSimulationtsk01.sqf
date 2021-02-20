@@ -9,4 +9,3 @@ sleep 4;
 
 ["CBRN Private","Entendido Capitan, lo esperare con ansias y Suerte."] spawn BIS_fnc_showSubtitle;
 sleep 4;
-

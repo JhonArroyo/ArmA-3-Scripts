@@ -67,67 +67,16 @@ sleep 5;
 
 null = [this] execVM "scripts\initConversation.sqf";
 //null = [[monitor1,monitor2,monitor3,monitor4],["s1","s2","s3","s4","s5"]] execVM "scripts\LFC\Feedinit.sqf";
-[] execVM "scripts\Trader_ravage_custom.sqf";
-
-
-
-//________________  Author : [GR]GEORGE F ___________	24.01.19	_____________
-
-/*
-________________	GF Cargo Airdrops Script - Mod	________________
-
-https://forums.bohemia.net/forums/topic/215257-cargo_airdrops_gf-script/
-
-Please keep the Credits or add them to your Diary
-
-https://community.bistudio.com/wiki/SQF_syntax
-Don't try to open this with the simple notepad.
-For everything that is with comment  //  in front  or between /*
-means that it is disabled , so there is no need to delete the extra lines.
-
-You can open this ex:
-with notepad++
-https://notepad-plus-plus.org/
-
-ArmA 3 | Notepad ++ SQF tutorial
-https://www.youtube.com/watch?v=aI5P7gp3x90
-
-and also use the extra pluggins
-(this way will be better , it will give also some certain colours to be able to detect ex. problems )
-http://www.armaholic.com/page.php?id=8680
-
-or use any other program for editing .
-
-For the Compilation List of my GF Scripts , you can search in:
-https://forums.bohemia.net/forums/topic/215850-compilation-list-of-my-gf-scripts/
-*/
-
-
-[] execVM "scripts\GF_Cargo_Airdrops\Credits.sqf";	// Please keep the Credits or add them to your Diary
+[] execVM "scripts\Trader_ravage_custom.sqf" // Create my own Scheduler Handler for lightweight executing Sever.
 [] execVM "scripts\GF_Cargo_Airdrops\GF_Cargo_Airdrops.sqf";
-
-
-//	You can call this with radio trigger
-
-//	GF_Cargo_Airdrops_Request.sqf
-_radio_1 = createTrigger["EmptyDetector",[0,0]];
-_radio_1 setTriggerActivation["Alpha","PRESENT",true];
-_radio_1 setTriggerStatements["this","execVM 'scripts\GF_Cargo_Airdrops\GF_Cargo_Airdrops_Request.sqf'",""];
-1 setRadioMsg "Cargo Airdrop Request";
+//nul = [za] execVM "scripts\cctv\CCTVHandler.sqf" // [_trigNameSetFromEditor]execVM "CCTVHandler.sqf 
 
 
 //	GF_Cargo_Airdrops_ZAG_LORD.sqf
-_radio_2 = createTrigger["EmptyDetector",[0,0]];
-_radio_2 setTriggerActivation["Bravo","PRESENT",true];
-_radio_2 setTriggerStatements["this","execVM 'scripts\GF_Cargo_Airdrops\GF_Cargo_Airdrops_ZAG_LORD.sqf'",""];
-2 setRadioMsg "ZAG_LORD Airdrop";
-
-//	OR
-
-//	GF_Cargo_Airdrops_Request , add action in an item or player	https://community.bistudio.com/wiki/addAction
-//player addAction ["Cargo Airdrop", "GF_Cargo_Airdrops\GF_Cargo_Airdrops_Request.sqf"];
-
-//-------------------------------------------------------------------------------------------------------------------------------
+//_radio_2 = createTrigger["EmptyDetector",[0,0]];
+//_radio_2 setTriggerActivation["Bravo","PRESENT",true];
+//_radio_2 setTriggerStatements["this","execVM 'scripts\GF_Cargo_Airdrops\GF_Cargo_Airdrops_ZAG_LORD.sqf'",""];
+//2 setRadioMsg "ZAG_LORD Airdrop";
 
 /*
 Adding zones must be done by server. If you add them via any other machine, it will simply not work!
@@ -140,8 +89,7 @@ The fall off area will add to the radius, but the threadlevel will not be in ful
 You want a threat area spanning 500 meters in radius, but you only want the full effect of threatlevel 3.5 withing 100 meters of the center, this would look like this:
 
 [_pos, 3.5, 100, 400] call cbrn_fnc_createZone;
-
-This will create a threat level 3.5 (Orange) zone around position _pos with total radius of 500 meters and full effect is 100 meter radius around the center!
+//This will create a threat level 3.5 (Orange) zone around position _pos with total radius of 500 meters and full effect is 100 meter radius around the center!*/
 */
 
 // setting up examples on map
