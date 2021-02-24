@@ -1,3 +1,14 @@
+/*
+overviewText = "";
+overviewTextLocked = "";
+//overviewPicture = "";
+
+onLoadName = "";
+onLoadMission ="";
+loadScreen = "";
+author = "";
+*/
+
 #define NAME "CBRN Showcase"
 
 class CfgFunctions {
@@ -21,11 +32,20 @@ class CfgSounds {
 	sound[] = {"scripts\cbrn\sounds\intro.ogg", 2,1};
 	titles[] = {};
 	};
-};
+
 	//Sounds Airdrop Extracted and used from GF_AIRDROP_SCRIPT
 	class Plane_sound1{name = "Plane_sound1";sound[] = {"scripts\cbrn\sounds\plane_fly_over_1.ogg", db-2, 1.0};titles[] = {};};
 	class Plane_sound2{name = "Plane_sound2";sound[] = {"scripts\cbrn\sounds\plane_fly_over_2.ogg", db-2, 1.0};titles[] = {};};
 	class Plane_sound3{name = "Plane_sound3";sound[] = {"scripts\cbrn\sounds\plane_fly_over_3.ogg", db-2, 1.0};titles[] = {};};
+
+	//Radio-Chatter SFX
+	class in1  {name="in1";sound[]={"@A3\Dubbing_Radio_F\sfx\in2a.ogg",db+12,1};titles[] = {};};
+	class in2  {name="in2";sound[]={"@A3\Dubbing_Radio_F\sfx\in2a.ogg",db+12,.7};titles[] = {};};
+	class out1 {name="out1";sound[]={"@A3\Dubbing_Radio_F\sfx\out2a.ogg",db+12,1};titles[] = {};};
+	class fuz0 {name="fuz0";sound[]={"@A3\Dubbing_Radio_F\sfx\radionoise1.ogg",db+9,1};titles[] = {};};
+
+};
+	
 
 class RscTitles {
     #include "scripts\cbrn\rsctitles.hpp"
