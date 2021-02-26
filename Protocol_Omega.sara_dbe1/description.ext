@@ -9,10 +9,17 @@ loadScreen = "";
 author = "";
 */
 
+#define HALs_DEF_INIT
+	#include "HALs\Addons\main\config.hpp"
+#undef HALs_DEF_INIT
+
 #define NAME "CBRN Showcase"
 
 class CfgFunctions {
     #include "scripts\cbrn\funcs.hpp"
+	#define HALs_DEF_FUNCTIONS
+		#include "HALs\Addons\main\config.hpp"
+	#undef HALs_DEF_FUNCTIONS
 };
 
 class CfgSounds {

@@ -50,15 +50,15 @@ _Virtual_Arsenal          				= false;       	//	Add Virtual Arsenal to Cargo
 _Random_Loot							= true;         //	Add random loot , you need to select this or the one below
 _Custom_loot							= false;      	//	Selected loot 
 _Create_Markers    						= true;         //	Show the Airdrop position with a marker
-_Number									= 5;			//	Number of the Airdrops
-_Number_random							= 5;			//	+ random 5 Airdrops
-_next_drop_in_sec   					= 60;          	//	_next_drop_in_sec - 10 is for test
+_Number									= 50;			//	Number of the Airdrops
+_Number_random							= 55;			//	+ random 5 Airdrops
+_next_drop_in_sec   					= 1200;          	//	_next_drop_in_sec - 10 is for test
 _height_of_drop      					= 75;       	//	_height_of_drop - 75 is for test
 
 
 //________________ Enemies ________________
-
-_Spawn_Enemy							= true;		//	Spawn Enemy at the site
+/*
+_Spawn_Enemy							= false;		//	Spawn Enemy at the site
 _Enemy_Side								= east;		
 
 _Squad_Members							= 5;		//	+ floor random 5 below
@@ -79,10 +79,10 @@ _Pool_Infantry = [
 	"O_G_Soldier_M_F","O_G_Soldier_LAT_F","O_G_Soldier_A_F","O_G_Soldier_F","O_G_Soldier_lite_F","O_G_Sharpshooter_F",
 	"O_G_Soldier_universal_F"
 	];
-sleep 5400;	
+*/	
 	
 	
-	
+sleep 5400;
 systemchat "C a r g o   A i r d r o p s    I n i t i a l i z e d";
 sleep 14;
 
@@ -874,7 +874,7 @@ _Cargo enableSimulation true;
 
 
 
-
+/*
 //________________	Spawn a Group at the Airdrops	________________
 
 if (_Spawn_Enemy) then {
@@ -892,7 +892,7 @@ _unit = _Group createunit [selectRandom _Pool_Infantry,_Pos_Spawn,[],0,"None"];
 };
 [_Group,_Pos,_Patrol_distance + random _Patrol_distance_random] call BIS_fnc_taskPatrol;
 };
-        
+*/     
 
 
 

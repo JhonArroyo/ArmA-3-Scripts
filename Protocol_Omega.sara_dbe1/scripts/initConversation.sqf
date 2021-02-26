@@ -24,3 +24,5 @@ playSound "fuz0";
 HQ sideChat "*murmurando* ya recuperamos la comunicacion ?.si ?.ok...Bueno como te estaba diciendo decidimos llamar esta misión PROYECTO OMEGA asi que cuando llegues a tierra te daremos mas instrucciones.Cambio y fuera.";
 sleep 5;
 playSound "out1";
+
+

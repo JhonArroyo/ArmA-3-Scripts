@@ -60,3 +60,10 @@ sleep 2;
 
 systemChat "S E Q U E N C E  F I N A L I Z A D A"; // DEBUG
 [1, 6, false, true ] call BIS_fnc_cinemaBorder;
+sleep 7;
+
+[player, sRequester, hProviderVirtual] call BIS_fnc_addSupportLink;
+
+//[player, sRequester, hProviderVirtual] call BIS_fnc_addSupportLink;
+
+//[player, sRequester, sProviderVirtual] call BIS_fnc_addSupportLink;
