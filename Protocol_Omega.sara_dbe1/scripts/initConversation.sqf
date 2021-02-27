@@ -1,6 +1,6 @@
 playSound "in1";
 playSound "fuz0";
-HQ sideChat "Muy bien comandante necesito que te embarques en ese helicoptero mientras te pongo al tanto de la situación pero necesito que nos comuniquemos bajo el canal BRAVO.";
+HQ sideChat "Muy bien comandante necesito que te embarques en ese helicoptero mientras te pongo al tanto de la situación.";
 sleep 5;
 playSound "out1";
 sleep 2; 
