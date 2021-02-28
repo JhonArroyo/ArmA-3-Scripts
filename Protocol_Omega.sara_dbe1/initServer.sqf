@@ -76,3 +76,38 @@ You want a threat area spanning 500 meters in radius, but you only want the full
 [getMarkerPos "market_t4", 3.5, 800, 1600] call cbrn_fnc_createZone;
 
 //[getMarkerPos "market_3",4.5, 600,1200] call cbrn_fnc_createZone;
+
+/*
+	M O N E Y D R O P   E X E C U T I N G   S C R I P T (HAL'S STORE ADD-ON)
+	AUTHOR: WHITELOTUS
+	DATE CREATION: 2021-02-27
+	TIME CREATION: 20:57:44
+	
+The following code structure seeks the creation of an event handler in a personalized way where every 30 minutes 
+the user who is playing receives a certain sum of money in a random way 
+based on a help counter that is also random. 
+ 
+*/
+
+systemChat "MONEYDROP SCRIPT, I N I T I A L I Z I N G"; // DEBUG 
+_MoneyDrop_EH = selectRandom [10,20,30,40,50,60,70,80,90,100];
+switch (_MoneyDrop_EH) do {
+	case 10: {systemChat format ["HELP-COUNT SELECTED: %1",_MoneyDrop_EH] };
+	case 20: {systemChat format ["HELP-COUNT SELECTED: %1",_MoneyDrop_EH] }; 
+	case 30: {systemChat format ["HELP-COUNT SELECTED: %1",_MoneyDrop_EH] };
+	case 40: {systemChat format ["HELP-COUNT SELECTED: %1",_MoneyDrop_EH] };
+	case 50: {systemChat format ["HELP-COUNT SELECTED: %1",_MoneyDrop_EH] };
+	case 60: {systemChat format ["HELP-COUNT SELECTED: %1",_MoneyDrop_EH] };
+	case 70: {systemChat format ["HELP-COUNT SELECTED: %1",_MoneyDrop_EH] };
+	case 80: {systemChat format ["HELP-COUNT SELECTED: %1",_MoneyDrop_EH] };
+	case 90: {systemChat format ["HELP-COUNT SELECTED: %1",_MoneyDrop_EH] };
+	case 100: {hintSilent "Congrats actually you've the best HELP-COUNT" };
+};
+sleep 1.5;
+systemChat "MONEYDROP SCRIPT, I N I T I A L I Z E D"; // DEBUG
+for "_i" from _MoneyDrop_EH to 1 step -1 do 
+{ 	sleep 60;
+	null = [] execVM "MoneyReward.sqf";
+	_eval = _i - 1;
+	systemChat format ["HELP-COUNT LEFT: %1",_eval];
+};
