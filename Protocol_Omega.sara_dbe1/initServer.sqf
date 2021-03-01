@@ -53,7 +53,7 @@ if (isServer) then {
 
 	[_trader3, "GUARD", "ASIS"] remoteExecCall ["BIS_fnc_ambientAnim", 0, true];
 };
-
+sleep 10;
 
 /*
 Adding zones must be done by server. If you add them via any other machine, it will simply not work!
@@ -71,15 +71,15 @@ You want a threat area spanning 500 meters in radius, but you only want the full
 
 
 // setting up examples on map
-[getMarkerPos "market_t2", 1.5, 380, 380] call cbrn_fnc_createZone;
-[getMarkerPos "market_t3", 2.5, 400, 400] call cbrn_fnc_createZone;
+[getMarkerPos "market_t2", 1.5, 150, 380] call cbrn_fnc_createZone;
+[getMarkerPos "market_t3", 2.5, 200, 400] call cbrn_fnc_createZone;
 [getMarkerPos "market_t4", 3.5, 800, 1600] call cbrn_fnc_createZone;
 
 //[getMarkerPos "market_3",4.5, 600,1200] call cbrn_fnc_createZone;
 
 /*
 	M O N E Y D R O P   E X E C U T I N G   S C R I P T (HAL'S STORE ADD-ON)
-	AUTHOR: WHITELOTUS
+	AUTHOR: JhonArroyo ()WHITELOTUS)
 	DATE CREATION: 2021-02-27
 	TIME CREATION: 20:57:44
 	
@@ -107,7 +107,7 @@ sleep 1.5;
 systemChat "MONEYDROP SCRIPT, I N I T I A L I Z E D"; // DEBUG
 for "_i" from _MoneyDrop_EH to 1 step -1 do 
 { 	sleep 60;
-	null = [] execVM "MoneyReward.sqf";
+	null = [] execVM "scripts\MoneyReward.sqf";
 	_eval = _i - 1;
 	systemChat format ["HELP-COUNT LEFT: %1",_eval];
 };
