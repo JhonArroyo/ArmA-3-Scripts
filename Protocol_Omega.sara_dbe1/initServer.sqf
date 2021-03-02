@@ -111,4 +111,3 @@ for "_i" from _MoneyDrop_EH to 1 step -1 do
 	_eval = _i - 1;
 	systemChat format ["HELP-COUNT LEFT: %1",_eval];
 };
-
