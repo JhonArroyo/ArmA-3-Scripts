@@ -1,0 +1,2 @@
+this addAction ["Refill Ammo",{[player,currentWeapon player,1] call BIS_fnc_addWeapon;}];
+

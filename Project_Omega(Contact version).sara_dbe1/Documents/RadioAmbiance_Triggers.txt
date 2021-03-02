@@ -1,0 +1,27 @@
+Trigger: tm
+-Blufor
+-repeatable
+Condition: player in thisList
+*/-----------------------------------*/
+Trigger: t1
+-repeatable
+Condition: triggerActivated tm
+Effect_Conditon:  Sound -> USAF RADIO CHATTER 29
+*/-----------------------------------*/
+Trigger: t2
+-repeatable
+Condition: triggerActivated t1
+Delay_Activation : 19 - 19 - 19
+Effect_Conditon: Sound -> USAF RADIO CHATTER 28
+*/-----------------------------------*/
+Trigger: t3
+-repeatable
+Condition: triggerActivated t2
+Delay_Activation : 14 - 14 - 14
+Effect_Conditon: Sound -> USAF RADIO CHATTER 27
+*/-----------------------------------*/
+Trigger: t4
+-repeatable
+Condition: triggerActivated t3
+Delay_Activation : 17 - 17 - 17
+Effect_Conditon: Sound -> USAF RADIO CHATTER 25
