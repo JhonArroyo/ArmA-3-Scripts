@@ -52,7 +52,7 @@ _Custom_loot							= false;      	//	Selected loot
 _Create_Markers    						= true;         //	Show the Airdrop position with a marker
 _Number									= 50;			//	Number of the Airdrops
 _Number_random							= 55;			//	+ random 5 Airdrops
-_next_drop_in_sec   					= 1200;          	//	_next_drop_in_sec - 10 is for test
+_next_drop_in_sec   					= 10800;          	//	_next_drop_in_sec - 10 is for test
 _height_of_drop      					= 75;       	//	_height_of_drop - 75 is for test
 
 
@@ -910,6 +910,8 @@ if (_Create_Markers) then {
 };	
 
 }; 
+if (_number == 0 && _Number_random == 0) then {
 
+systemchat "C a r g o   A i r d r o p s    F i n i s h e d";
 
-systemchat "C a r g o   A i r d r o p s    S p a w n e d";
+}else{systemchat "C a r g o   A i r d r o p s    S p a w n e d";};
