@@ -17,7 +17,7 @@ if (!isDedicated) then {
 	// Give the player 10,000 starting money
 	[player, 10000] call HALs_money_fnc_addFunds;
 };
-
+//INDENP TRADER
 private _trader1 = trader1;
 if (isServer) then {
 	[_trader1, "weapon"] call HALs_store_fnc_addTrader; 
@@ -53,7 +53,31 @@ if (isServer) then {
 
 	[_trader3, "GUARD", "ASIS"] remoteExecCall ["BIS_fnc_ambientAnim", 0, true];
 };
-sleep 10;
+
+//BLUFOR TRADERS
+private _trader1a = trader1a;
+if (isServer) then{
+	[_trader1a, "weapon"] call HALs_store_fnc_addTrader;
+	_trader1a enableSimulationGlobal false;
+	_trader1a allowDamage false;
+	_trader1a setCaptive true;
+};
+
+private _trader2a = trader2a;
+if (isServer) then{
+	[_trader1a, "navigation"] call HALs_store_fnc_addTrader;
+	_trader2a enableSimulationGlobal false;
+	_trader2a allowDamage false;
+	_trader2a setCaptive true;
+};
+
+private _trader3a = trader3a;
+if (isServer) then{
+	[_trader3a, "pharmacy"] call HALs_store_fnc_addTrader;
+	_trader3a enableSimulationGlobal false;
+	_trader3a allowDamage false;
+	_trader3a setCaptive true;
+};
 
 /*
 Adding zones must be done by server. If you add them via any other machine, it will simply not work!
@@ -71,15 +95,15 @@ You want a threat area spanning 500 meters in radius, but you only want the full
 
 
 // setting up examples on map
-[getMarkerPos "market_t2", 1.5, 150, 380] call cbrn_fnc_createZone;
-[getMarkerPos "market_t3", 2.5, 200, 400] call cbrn_fnc_createZone;
-[getMarkerPos "market_t4", 3.5, 800, 1600] call cbrn_fnc_createZone;
+[getMarkerPos "market_t2", 0.5, 80, 380] call cbrn_fnc_createZone;
+[getMarkerPos "market_t3", 1.5, 120, 400] call cbrn_fnc_createZone;
+[getMarkerPos "market_t4", 2.5, 200, 1600] call cbrn_fnc_createZone;
 
 //[getMarkerPos "market_3",4.5, 600,1200] call cbrn_fnc_createZone;
 
 /*
 	M O N E Y D R O P   E X E C U T I N G   S C R I P T (HAL'S STORE ADD-ON)
-	AUTHOR: JhonArroyo ()WHITELOTUS)
+	AUTHOR: JhonArroyo (WHITELOTUS)
 	DATE CREATION: 2021-02-27
 	TIME CREATION: 20:57:44
 	
