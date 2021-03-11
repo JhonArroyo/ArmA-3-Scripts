@@ -6,8 +6,8 @@
 */
 sleep 180;
 systemChat "MONEYDROP SCRIPT, I N I T I A L I Z I N G"; // DEBUG
-params ["_a01", "_a02", "_a03","_a04","_a05","_a06","_a07","_a08","_a09"];
-_MoneyDrop_EH = selectRandom [_a01,_a02,_a03,_a04,_a05,_a06,_a07,_a08,_a09];
+params ["_a01", "_a02", "_a03","_a04","_a05"];
+_MoneyDrop_EH = selectRandom [_a01,_a02,_a03,_a04,_a05];
 /*
 switch (_MoneyDrop_EH) do {
 	case 10: {systemChat format ["HELP-COUNT SELECTED: %1",_MoneyDrop_EH] };

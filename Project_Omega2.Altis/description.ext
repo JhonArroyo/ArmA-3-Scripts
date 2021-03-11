@@ -18,3 +18,6 @@ class CfgSounds {
 class CfgHints {
 	#include "scripts\Hints\Global_Hints.hpp"
 };
+class CfgNotifications {
+	#include "scripts\Quest\notification\notifications_libraries.hpp"
+};
