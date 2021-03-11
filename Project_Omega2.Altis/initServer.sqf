@@ -72,9 +72,3 @@ if (isServer) then{
 };
 */
 [10,20,30,40,50,60,70,80,90,100] call PO_fnc_moneydrop;
-
-/*
-_tskGlobal = [] execVM "scripts\TskCompletedEvent\tsk_Event.sqf";
-waitUntil {scriptDone _tskGlobal};
-*/
-
