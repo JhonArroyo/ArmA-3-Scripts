@@ -10,3 +10,25 @@ class IndpTrader
 		image = "\A3\Data_F\Flags\flag_AAF_CO.paa";
     };
 };
+class Quest01Recomendation
+{
+    displayName = "Ques01 Advice";
+
+    class CancelQuest01
+    {
+		displayName = "QUEST 01: ADVICE";
+		description = "Si trata de equiparte algunas de las arma o guardarlas considera el encargo cancelado";
+    };
+};
+/*
+class Quest02Recomendation
+{
+    displayName = "Ques01 Advice";
+
+    class CancelQuest02
+    {
+		displayName = "QUEST 02: ADVICE";
+		description = " ";
+    };
+};
+*/

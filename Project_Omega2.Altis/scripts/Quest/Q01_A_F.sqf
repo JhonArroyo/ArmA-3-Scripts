@@ -8,20 +8,35 @@ _Marker1_Pos setMarkerSize [1,1];
 [0, 6, false, true ] call BIS_fnc_cinemaBorder;
 playSound "in1";
 playSound "fuz0";
-IHQ sideChat "Como vamos..?";
+IHQ sideChat "Entonces tu eres el sujeto que esta dispuesto a hacer el envio?";
 sleep 5;
 playSound "out1";
 sleep 2;
 
 playSound "in2";
 playSound "fuz0";
-["Cap. Aaron L. Collins","Hasta el momento todo en orden, acabo de encontrar un laboratorio con informacion estoy en proceso de cargarlo"] spawn BIS_fnc_showSubtitle;
+["Cap. Aaron L. Collins","Ese soy yo"] spawn BIS_fnc_showSubtitle;
+sleep 5;
+playSound "out1";
+sleep 2;
+
+playSound "in1";
+playSound "fuz0";
+IHQ sideChat "Entonces no se diga mas veras la ubicacion de la entrega en tu mapa, cuando la mercancia este el punto designado se te dara la paga";
+sleep 5;
+playSound "out1";
+sleep 2;
+
+playSound "in2";
+playSound "fuz0";
+["Cap. Aaron L. Collins","Enterado"] spawn BIS_fnc_showSubtitle;
 sleep 5;
 playSound "out1";
 sleep 2;
 [1, 6, false, true ] call BIS_fnc_cinemaBorder;
+[["Quest01Recomendation", "CancelQuest01"], 15,"",35,"",true,true,false,true] call BIS_fnc_advHint;
 {
-	tuck01 addWeaponCargo [_x,5];
+	tuck01 addWeaponCargo [_x,10];
 } forEach ["srifle_EBR_F","srifle_LRR_F","arifle_Mk20_F","SMG_01_Holo_F"];
 player addEventHandler ["Take", {
    _unit = _this select 0;
