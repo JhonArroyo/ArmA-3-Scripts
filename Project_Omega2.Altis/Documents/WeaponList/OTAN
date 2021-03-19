@@ -1,0 +1,7 @@
+// WEAPON CREATE 
+
+[["arifle_SDAR_F","arifle_MXM_F","srifle_LRR_F","srifle_DMR_03_F","srifle_DMR_02_F","MMG_02_black_F"],[1,1,1,1,1,1]]
+
+// SPECIAL WEAPON CREATE
+
+[["arifle_MX_F","arifle_MX_GL_F","arifle_MX_SW_F","arifle_MXC_F","SMG_01_F","hgun_P07_F","hgun_Pistol_heavy_01_F"],[4,2,2,2,1,1,1]]

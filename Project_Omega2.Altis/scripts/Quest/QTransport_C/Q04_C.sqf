@@ -10,3 +10,4 @@ deleteMarker "Mkr4";
 deleteMarker "QMarker04a";
 clearWeaponCargo truck04;
 deleteVehicle truck04;
+systemChat "QUEST-04  F I N A L I Z I N G";

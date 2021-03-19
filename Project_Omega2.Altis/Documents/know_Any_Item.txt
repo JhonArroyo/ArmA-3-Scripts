@@ -1,0 +1,3 @@
+TranslateText = getWeaponCargo box1;
+TranslateTex  = format ["%1",TranslateText];
+copyToClipboard TranslateTex;

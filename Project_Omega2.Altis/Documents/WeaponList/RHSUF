@@ -1,0 +1,10 @@
+//WEAPON CREATE ARRAY 
+
+[["rhsusf_weap_m1911a1","rhsusf_weap_glock17g4","rhsusf_weap_m9","rhs_weap_m4","rhs_weap_m4_carryhandle","rhs_weap_m4_m203","rhs_weap_m4_m320","rhs_weap_m4a1","rhs_weap_m4a1_m203","rhs_weap_m4a1_m203s","rhs_weap_m4a1_m320","rhs_weap_m4a1_carryhandle","rhs_weap_m4a1_carryhandle_m203","rhs_weap_m4a1_d","rhs_weap_m4a1_d_mstock","rhs_weap_m4a1_m203s_d","rhs_weap_m4a1_wd","rhs_weap_m4a1_wd_mstock","rhs_weap_m4a1_m203s_wd","rhs_weap_hk416d10","rhs_weap_hk416d10_m320","rhs_weap_hk416d10_LMT","rhs_weap_hk416d10_LMT_d","rhs_weap_hk416d10_LMT_wd","rhs_weap_hk416d145","rhs_weap_hk416d145_m320","rhs_weap_hk416d145_d","rhs_weap_hk416d145_d_2","rhs_weap_hk416d145_wd","rhs_weap_hk416d145_wd_2","rhs_weap_m27iar","rhs_weap_m16a4","rhs_weap_m16a4_carryhandle","rhs_weap_m16a4_carryhandle_M203","rhs_weap_m16a4_imod","rhs_weap_m16a4_imod_M203","rhs_weap_m249_pip","rhs_weap_m249_pip_ris","rhs_weap_m249_pip_S","rhs_weap_m249_pip_S_para","rhs_weap_m249_pip_L","rhs_weap_m249_pip_L_para","rhs_weap_m249_light_S","rhs_weap_m249_light_L","rhs_weap_m240B","rhs_weap_m240G","rhs_weap_m14ebrri","rhs_weap_sr25","rhs_weap_sr25_ec","rhs_weap_mk17_CQC","rhs_weap_mk17_STD","rhs_weap_mk17_LB","rhs_weap_m24sws","rhs_weap_m24sws_wd","rhs_weap_m24sws_d","rhs_weap_m40a5","rhs_weap_m40a5_d","rhs_weap_m40a5_wd","rhs_weap_XM2010","rhs_weap_XM2010_d","rhs_weap_XM2010_wd","rhs_weap_XM2010_sa","rhs_weap_M107","rhs_weap_M107_w","rhs_weap_M107_d","rhs_weap_M590_5RD","rhs_weap_M590_8RD","rhsusf_weap_MP7A2","rhsusf_weap_MP7A2_winter","rhsusf_weap_MP7A2_desert","rhsusf_weap_MP7A2_aor1"],[10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10]]
+
+// LAUNCHERS CREATE ARRAY
+
+[["rhs_weap_M320","rhs_weap_m32","rhs_weap_m72a7","rhs_weap_M136","rhs_weap_M136_hedp","rhs_weap_M136_hp","rhs_weap_fim92","rhs_weap_fgm148","rhs_weap_smaw","rhs_weap_smaw_green","rhs_weap_maaws"],[5,5,5,5,5,5,5,5,5,5,5]]
+
+
+

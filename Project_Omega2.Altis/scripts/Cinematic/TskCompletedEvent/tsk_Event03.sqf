@@ -7,7 +7,7 @@ sleep 2;
 
 playSound "in2";
 playSound "fuz0";
-HQ sideChat "Vale....por lo pronto intenta recorrer mas adelante te avisaremos de tu proximo encargo";
+["CIA-HQ","Vale....por lo pronto intenta recorrer el sitio, mas adelante te avisaremos de tu proximo encargo"] spawn BIS_fnc_showSubtitle;
 sleep 5;
 playSound "out1";
 sleep 2;
@@ -18,3 +18,4 @@ playSound "fuz0";
 sleep 5;
 playSound "out1";
 sleep 2;
+"Mkr1" setMarkerAlpha 1;

@@ -1,0 +1,8 @@
+this addAction 
+[
+"Refill Ammo",
+{
+    [] execVM "scripts\refill_exception.sqf";
+}
+];
+

@@ -71,9 +71,9 @@ if (isServer) then{
 	_trader3a setCaptive true;
 };
 */
-player addEventHandler ["GetInMan", {[_this select 2] execVM "scripts\kp_fuel_consumption.sqf";}];
-sleep 180;
+/*
 "Mkr1" setMarkerAlpha 1;
 _QuestGlobal_Handler = [] execVM "scripts\Quest\QuestGlobal_EH.sqf";
 waitUntil{scriptDone _QuestGlobal_Handler};
+*/
 [4,5,6,8,10] call PO_fnc_moneydrop;
