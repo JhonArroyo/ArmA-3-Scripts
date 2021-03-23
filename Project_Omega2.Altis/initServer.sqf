@@ -1,3 +1,4 @@
+titleCut ["", "BLACK IN", 5];
 intro_handler = [] execVM "scripts\cinematic\Intro.sqf";
 waitUntil { scriptDone intro_handler };
 sleep 2;

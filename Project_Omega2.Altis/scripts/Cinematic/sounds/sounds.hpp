@@ -5,6 +5,7 @@ class kp
 	sound[] = {"scripts\Cinematic\sounds\kp.ogg", 5,1};
 	titles[] = {};
 };
+/*
 class ambient1
 {
 	name="ambient1";
@@ -17,6 +18,7 @@ class ambient3
 	sound[] = {"scripts\Cinematic\sounds\ambient3.ogg", 5,1};
 	titles[] = {};
 };
+*/
 //Radio-Chatter SFX (Sequence)
 class in1  
 {

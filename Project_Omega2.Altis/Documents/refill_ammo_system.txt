@@ -1,8 +1,23 @@
-this addAction 
-[
-"Refill Ammo",
-{
-    [] execVM "scripts\refill_exception.sqf";
-}
+this addAction [
+    "Refill Ammo",
+    {
+        if (diag_tickTime < (uiNamespace getVariable ['tag_cooldown',-1])) exitWith {
+			hint (format ['Too soon to refill! Please wait %1 seconds.',(round ((uiNamespace getVariable ['tag_cooldown',-1]) - diag_tickTime))]);
+		};
+		_cooldown = 120; 	// cooldown duration in seconds
+		uiNamespace setVariable ['tag_cooldown',(diag_tickTime + _cooldown)];
+        [] execVM "scripts\temp\refill_exception.sqf";
+    }
 ];
 
+
+
+
+
+
+
+
+
+//////
+["10Rnd_50BW_Mag_F","30Rnd_65x39_caseless_green"]
+//////

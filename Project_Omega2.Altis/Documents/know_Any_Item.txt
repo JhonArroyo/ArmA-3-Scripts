@@ -1,3 +1,8 @@
-TranslateText = getWeaponCargo box1;
-TranslateTex  = format ["%1",TranslateText];
-copyToClipboard TranslateTex;
+_p = getWeaponCargo box;
+_p1 = format ["%1",_p];
+copyToClipboard _p1;
+------------------------------------------------------------
+_t = getMagazineCargo box;
+_t1 = format ["%1",_t];
+copyToClipboard _t1;
+
