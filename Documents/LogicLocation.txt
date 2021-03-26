@@ -1,3 +1,0 @@
-[parseText "<t font='PuristaBold' size='1.6'>CBRN HOSPITAL CAMP</t><br />by Username", true, nil, 7, 0.7, 0] spawn BIS_fnc_textTiles;
-
-[parseText "<t font='PuristaBold' size='1.6'>INDEPENDENT TRADERS</t><br />by Username", true, nil, 7, 0.7, 0] spawn BIS_fnc_textTiles;

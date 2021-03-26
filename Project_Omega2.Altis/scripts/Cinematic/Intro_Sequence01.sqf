@@ -1,6 +1,7 @@
+titleCut ["", "BLACK IN", 5];
+sleep 6;
 [0, 6, false, true ] call BIS_fnc_cinemaBorder;
-[["Codename: Project Omega","Location: Altis,Grace","CIA Spec-Ops",str(date select 1) + "." + str(date select 2) + "." + str(date select 0)], 0.01, 6] execVM "scripts\temp\infoText.sqf";
-//[str ("Codename: Project Omega"), str("Location: Altis/GR"), str("CIA SPEC-OPS"), str(date select 1) + "." + str(date select 2) + "." + str(date select 0)] spawn BIS_fnc_infoText;
+[str ("Codename: Project Omega"), str("Location: Altis/GR"), str("CIA SPEC-OPS"), str(date select 1) + "." + str(date select 2) + "." + str(date select 0)] spawn BIS_fnc_infoText;
 /*	
 sleep 2;
 "dynamicBlur" ppEffectEnable true;   

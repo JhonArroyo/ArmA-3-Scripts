@@ -1,8 +1,0 @@
-Siren for both van and offroad:
-[this,'CustomSoundController1',1,0.2] remoteExec ['BIS_fnc_setCustomSoundController'];
-
-Light beacon for van:
-this animateSource ['lights_em_hide',1]; 
-
-Light beacon for Offroad:
-this animateSource ['Beacons',1];this animateSource ['StartBeaconLight',1];

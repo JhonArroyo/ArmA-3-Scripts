@@ -1,25 +1,10 @@
-//LoudSpeaker SFX-Ambiance
 class kp
 {
-	name="kp";
+	name = "kp";
 	sound[] = {"scripts\Cinematic\sounds\kp.ogg", 5,1};
 	titles[] = {};
 };
-/*
-class ambient1
-{
-	name="ambient1";
-	sound[] = {"scripts\Cinematic\sounds\ambient1.ogg", 5,1};
-	titles[] = {};
-};
-class ambient3
-{
-	name  = "ambient3";
-	sound[] = {"scripts\Cinematic\sounds\ambient3.ogg", 5,1};
-	titles[] = {};
-};
-*/
-//Radio-Chatter SFX (Sequence)
+//Radio-Chatter SFX
 class in1  
 {
 	name="in1";

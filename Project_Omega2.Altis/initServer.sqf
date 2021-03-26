@@ -1,4 +1,3 @@
-titleCut ["", "BLACK IN", 5];
 intro_handler = [] execVM "scripts\cinematic\Intro.sqf";
 waitUntil { scriptDone intro_handler };
 sleep 2;
@@ -71,10 +70,5 @@ if (isServer) then{
 	_trader3a allowDamage false;
 	_trader3a setCaptive true;
 };
-*/
-/*
-"Mkr1" setMarkerAlpha 1;
-_QuestGlobal_Handler = [] execVM "scripts\Quest\QuestGlobal_EH.sqf";
-waitUntil{scriptDone _QuestGlobal_Handler};
 */
 [4,5,6,8,10] call PO_fnc_moneydrop;
