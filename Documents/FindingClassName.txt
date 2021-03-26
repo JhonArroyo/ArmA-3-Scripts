@@ -1,0 +1,1 @@
+onEachFrame {hintSilent str [typeOf cursorObject, cursorObject]};
