@@ -49,3 +49,43 @@ class TaskCanceled02
 	description = "Has intentando robar la mercancia";
 	color[] = {0.9,0,0,1};
 };
+class TaskAssigned03
+{
+	title = "TASK ASSIGNED";
+	iconPicture = "\A3\ui_f\data\map\mapcontrol\taskiconcreated_ca.paa";
+	description = " ";
+};
+class TaskSucceeded03
+{
+	title = "TASK SUCCEEDED";
+	description = " ";
+	color[] = {0,0.6,0,1};
+	iconPicture = "\A3\ui_f\data\map\mapcontrol\taskicondone_ca.paa";
+};
+class TaskCanceled03
+{
+	title = "TASK CANCELED";
+	iconPicture = "\A3\ui_f\data\map\MapControl\taskiconcanceled_ca.paa";
+	description = "Has intentando robar la mercancia";
+	color[] = {0.9,0,0,1};
+};
+class TaskAssigned04
+{
+	title = "TASK ASSIGNED";
+	iconPicture = "\A3\ui_f\data\map\mapcontrol\taskiconcreated_ca.paa";
+	description = " ";
+};
+class TaskSucceeded04
+{
+	title = "TASK SUCCEEDED";
+	description = " ";
+	color[] = {0,0.6,0,1};
+	iconPicture = "\A3\ui_f\data\map\mapcontrol\taskicondone_ca.paa";
+};
+class TaskCanceled04
+{
+	title = "TASK CANCELED";
+	iconPicture = "\A3\ui_f\data\map\MapControl\taskiconcanceled_ca.paa";
+	description = "Has intentando robar la mercancia";
+	color[] = {0.9,0,0,1};
+};

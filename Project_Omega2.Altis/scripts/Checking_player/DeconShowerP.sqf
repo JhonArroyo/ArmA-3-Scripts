@@ -1,4 +1,4 @@
-[cshower2, 1.5, 9] spawn BIN_fnc_deconShowerAnim;
+[cshower1, 1.5, 9] spawn BIN_fnc_deconShowerAnim;
 [
 	[
 		["DESCONTAMINANDO,", "<t align = 'center' shadow = '1' size = '0.7' font='PuristaBold'>%1</t>"],
@@ -18,5 +18,5 @@ sleep 10;
 //["DESCONTAMINADO","TENGA CUIDADO"] spawn BIS_fnc_infoText;
 player globalChat "Cada vez que salga o entre de la ciudad zero porfavor siga los mismos procedimientos";
 player enableSimulation true;
-[cshower2] call BIN_fnc_deconShowerAnimStop;
+[cshower1] call BIN_fnc_deconShowerAnimStop;
 sleep 3;

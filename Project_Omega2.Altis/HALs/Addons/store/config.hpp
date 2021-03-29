@@ -334,131 +334,131 @@ class cfgHALsStore {
 
 			class 9Rnd_45ACP_Mag {
 				price = 150;
-				stock = 100;
+				stock = 1000;
 			};
 			class 6Rnd_45ACP_Cylinder {
 				price = 150;
-				stock = 100;
+				stock = 1000;
 			};
 			class 11Rnd_45ACP_Mag {
 				price = 175;
-				stock = 100;
+				stock = 1000;
 			};
 			class 16Rnd_9x21_Mag {
 				price = 300;
-				stock = 100;
+				stock = 1000;
 			};
 			class 16Rnd_9x21_red_Mag {
 				price = 300;
-				stock = 100;
+				stock = 1000;
 			};
 			class 16Rnd_9x21_green_Mag {
 				price = 300;
-				stock = 100;
+				stock = 1000;
 			};
 			class 16Rnd_9x21_yellow_Mag {
 				price = 300;
-				stock = 100;
+				stock = 1000;
 			};
 			class 30Rnd_9x21_Mag {
 				price = 500;
-				stock = 100;
+				stock = 1000;
 			};
 			class 30Rnd_9x21_Red_Mag {
 				price = 500;
-				stock = 100;
+				stock = 1000;
 			};
 			class 30Rnd_9x21_Yellow_Mag {
 				price = 500;
-				stock = 100;
+				stock = 1000;
 			};
 			class 30Rnd_9x21_Green_Mag {
 				price = 500;
-				stock = 100;
+				stock = 1000;
 			};
 			class 10Rnd_9x21_Mag {
 				price = 200;
-				stock = 100;
+				stock = 1000;
 			};
 			class 30Rnd_45ACP_Mag_SMG_01 {
 				price = 500;
-				stock = 100;
+				stock = 1000;
 			};
 			class 30Rnd_45ACP_Mag_SMG_01_Tracer_Green {
 				price = 500;
-				stock = 100;
+				stock = 1000;
 			};
 			class 30Rnd_45ACP_Mag_SMG_01_Tracer_Red {
-				price = 500;
-				stock = 100;
+				price = 5000;
+				stock = 1000;
 			};
 			class 30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow {
 				price = 500;
-				stock = 100;
+				stock = 1000;
 			};
 			class 30Rnd_9x21_Mag_SMG_02 {
 				price = 500;
-				stock = 100;
+				stock = 1000;
 			};
 			class 30Rnd_9x21_Mag_SMG_02_Tracer_Red {
 				price = 500;
-				stock = 100;
+				stock = 1000;
 			};
 			class 30Rnd_9x21_Mag_SMG_02_Tracer_Yellow {
 				price = 500;
-				stock = 100;
+				stock = 1000;
 			};
 			class 30Rnd_9x21_Mag_SMG_02_Tracer_Green {
 				price = 500;
-				stock = 100;
+				stock = 1000;
 			};
 			class RPG32_F {
 				price = 1500;
-				stock = 100;
+				stock = 1000;
 			};
 			class RPG32_HE_F {
 				price = 2000;
-				stock = 100;
+				stock = 1000;
 			};
 			class RPG7_F {
 				price = 500;
-				stock = 100;
+				stock = 1000;
 			};
 			class NLAW_F {
 				price = 2500;
-				stock = 100;
+				stock = 1000;
 			};
 			class Titan_AT {
 				price = 3000;
-				stock = 100;
+				stock = 1000;
 			};
 			class Titan_AP {
 				price = 3500;
-				stock = 100;
+				stock = 1000;
 			};
 			class Titan_AA {
 				price = 4000;
-				stock = 100;
+				stock = 1000;
 			};
 			class 30Rnd_556x45_Stanag {
 				price = 500;
-				stock = 100;
+				stock = 1000;
 			};
 			class 30Rnd_580x42_Mag_F {
 				price = 500;
-				stock = 100;
+				stock = 1000;
 			};
 			class 20Rnd_762x51_Mag {
 				price = 400;
-				stock = 100;
+				stock = 1000;
 			};
 			class 10Rnd_Mk14_762x51_Mag {
 				price = 300;
-				stock = 100;
+				stock = 1000;
 			};
 			class 50Rnd_570x28_SMG_03 {
 				price = 500;
-				stock = 100;
+				stock = 1000;
 			};
 		};
 		class mmgs {
@@ -543,31 +543,31 @@ class cfgHALsStore {
 
 			class rvg_plasticBottlePurified {
 				price = 15;
-				stock = 120;
+				stock = 1200;
 			};
 			class rvg_beans {
 				price = 20;
-				stock = 120;
+				stock = 1200;
 			};
 			class rvg_rice {
 				price = 20;
-				stock = 120;
+				stock = 1200;
 			};
 			class rvg_purificationTablets {
 				price = 100;
-				stock = 120;
+				stock = 1200;
 			};
 			class rvg_flare {
 				price = 10;
-				stock = 120;
+				stock = 1200;
 			};
 			class rvg_sleepingBag_Blue {
 				price = 80;
-				stock = 120;
+				stock = 1200;
 			};
 			class rvg_canOpener {
 				price = 20;
-				stock = 10;
+				stock = 100;
 			};
 		};
 		class pharmacyA {
@@ -576,51 +576,51 @@ class cfgHALsStore {
 
 			class ACE_elasticBandage {
 				price = 100;
-				stock = 120;
+				stock = 1200;
 			};
 			class ACE_bloodIV {
 				price = 1000;
-				stock = 20;
+				stock = 2000;
 			};
 			class ACE_bloodIV_500 {
 				price = 850;
-				stock = 50;
+				stock = 5000;
 			};
 			class ACE_bloodIV_250 {
 				price = 750;
-				stock = 50;
+				stock = 5000;
 			};
 			class ACE_morphine {
 				price = 250;
-				stock = 120;
+				stock = 1200;
 			};
 			class ACE_atropine {
 				price = 250;
-				stock = 120;
+				stock = 1200;
 			};
 			class ACE_personalAidKit {
 				price = 250;
-				stock = 120;
+				stock = 1200;
 			};
 			class ACE_plasmaIV {
 				price = 250;
-				stock = 120;
+				stock = 1200;
 			};
 			class ACE_plasmaIV_500 {
 				price = 250;
-				stock = 120;
+				stock = 1200;
 			};
 			class ACE_plasmaIV_250 {
 				price = 250;
-				stock = 120;
+				stock = 1200;
 			};
 			class ACE_surgicalKit {
 				price = 250;
-				stock = 120;
+				stock = 1200;
 			};
 			class ACE_tourniquet {
 				price = 250;
-				stock = 120;
+				stock = 1200;
 			};
 		};
 		class navigationB {

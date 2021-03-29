@@ -50,7 +50,7 @@ _Marker4_Pos setMarkerColor "ColorUNKNOWN";
 _Marker4_Pos setMarkerText "Objetivo: LLeva el cargamento al mundo designado en el mapa";  
 _Marker4_Pos setMarkerSize [1,1];  
 {
-	tuck04 addWeaponCargo [_x,10];
+	truck04 addWeaponCargo [_x,10];
 } forEach [
 	"arifle_AK12_F",
 	"arifle_AK12_GL_F",

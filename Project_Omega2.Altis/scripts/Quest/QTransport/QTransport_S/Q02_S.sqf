@@ -36,7 +36,7 @@ _Marker2_Pos setMarkerColor "ColorUNKNOWN";
 _Marker2_Pos setMarkerText "Objetivo: LLeva el cargamento al mundo designado en el mapa";  
 _Marker2_Pos setMarkerSize [1,1];  
 {
-	tuck02 addWeaponCargo [_x,10];
+	truck02 addWeaponCargo [_x,10];
 } forEach [
 	"launch_NLAW_F",
 	"launch_RPG32_F",

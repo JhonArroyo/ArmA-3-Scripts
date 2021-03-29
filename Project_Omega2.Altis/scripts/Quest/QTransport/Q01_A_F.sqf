@@ -36,7 +36,7 @@ _Marker1_Pos setMarkerSize [1,1];
 ["TaskAssigned01"] call BIS_fnc_showNotification;
 [["Quest01Recomendation", "CancelQuest01"], 15,"",35,"",true,true,false,true] call BIS_fnc_advHint;
 {
-	tuck01 addWeaponCargo [_x,10];
+	truck01 addWeaponCargo [_x,10];
 } forEach ["srifle_EBR_F","srifle_LRR_F","arifle_Mk20_F","SMG_01_Holo_F"];
 player addEventHandler ["Take", {
 	_unit = _this select 0;
