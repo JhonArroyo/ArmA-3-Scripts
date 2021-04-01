@@ -77,4 +77,8 @@ if (isServer) then{
 _QuestGlobal_Handler = [] execVM "scripts\Quest\QuestGlobal_EH.sqf";
 waitUntil{scriptDone _QuestGlobal_Handler};
 */
-[4,5,6,8,10] call PO_fnc_moneydrop;
+
+[4,5,6,8,10] call WhiteLotus_fnc_moneydrop;
+
+// TO BE PUT IN A TRIGGER.
+/*[] call WhiteLotus_fnc_gastation;*/
