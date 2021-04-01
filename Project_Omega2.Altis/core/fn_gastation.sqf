@@ -1,10 +1,10 @@
 /**
-*********************************************************
-*			E V A N'S   M E C H A N I C	 v.1			*
-*				Author = JhonArroyo (WHITELOTUS)		*
-*				DATE CREATION: 2021-03-28				*
-*				TIME CREATION: 19:09:00					*
-*********************************************************
+*********************************************************************
+*			E V A N'S   M E C H A N I C	 v.1	    *
+*				Author = JhonArroyo (WHITELOTUS)    *
+*				DATE CREATION: 2021-03-28	    *
+*				TIME CREATION: 19:09:00		    *
+*********************************************************************
 	Private Arguments(s):
 	0: Unit <OBJECT (Vehicle)>
 	1: VehType <Reference CfgVehicle String>
