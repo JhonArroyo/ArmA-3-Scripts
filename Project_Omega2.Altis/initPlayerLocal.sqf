@@ -1,1 +1,1 @@
-player addEventHandler ["GetInMan", {[_this select 2] execVM "scripts\kp_fuel_consumption.sqf";}];
+player addEventHandler ["GetInMan", {[_this select 2] execVM "scripts\fuel\kp_fuel_consumption.sqf";}];

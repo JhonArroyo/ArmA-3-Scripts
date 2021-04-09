@@ -79,6 +79,4 @@ waitUntil{scriptDone _QuestGlobal_Handler};
 */
 
 [4,5,6,8,10] call WhiteLotus_fnc_moneydrop;
-
-// TO BE PUT IN A TRIGGER.
-/*[] call WhiteLotus_fnc_gastation;*/
+player addEventHandler ["GetInMan", {[_this select 1] execVM "scripts\fuel\Gas_consume.sqf";}];

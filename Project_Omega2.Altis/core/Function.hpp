@@ -10,6 +10,5 @@ class WhiteLotus
 	{
 		file = "core";
 		class moneydrop {};
-		class gastation {};
 	};
 };
